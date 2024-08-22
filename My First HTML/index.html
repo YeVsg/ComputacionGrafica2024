@@ -1,7 +1,7 @@
 <!--
     Author(a): Juan David Gaviria Novoa
     Date of the creation: 15/08/2024
-    Last Modification: 22/08/2024 | 10:54am
+    Last Modification: 22/08/2024 | 11:44am
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -12,10 +12,7 @@
     <!-- Fav Icon -->
     <link type="image/png" sizes="32x32" rel="icon" href="./src/img/icons8-estrella-32.png">
     <link rel="stylesheet" href="./css/main.css">
-
-    <script>
-        alert("Hello World!");
-    </script>
+    <script src="./src/js/main.js"></script>
     
 </head>
 <body>
@@ -35,6 +32,12 @@
     </svg>
 
     <img id="myImageSVG" name="myImageSVG" src="./src/svg/papas-fritas.svg" alt="Papas Fritas">
+
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Soy un boton</button>
+
+<p id="demo"></p>
     
 </body>
 </html>
